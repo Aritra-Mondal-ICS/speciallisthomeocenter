@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialist Homeo Center</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">
+</head>
+
+<body>
+
+    <!-- header deign -->
+    <header class="header">
+        <a href="#" class="logo">Specialist Homeo Center</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#service areas">Service areas</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Dr.T.K.Mondal</h1>
+            <h3>And I'm a <span>Homeopathic Doctor</span></h3>
+            <p>A medical practitioner who specializes in homeopathy, a complementary and alternative medicine that uses
+                highly diluted substances to stimulate the body's natural healing processes.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/drtk.mondal"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://wa.me/+919836096799"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="https://wa.me/+919836096799" class="btn">Chat Now</a>
+        </div>
+
+        <div class="home-img">
+            <img src="dad3.jpeg" height="300" width="400">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="dad3.jpeg" height="350" width="350">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Homeopathic Doctor!</h3>
+            <p>I am a homeopathic doctor with a passion for holistic healing and a commitment to helping my patients
+                achieve optimal health and well-being. I received my medical degree from a recognized institution and
+                subsequently completed specialized training in homeopathy.</p>
+
+            <p>In my career, I have helped countless patients with a wide range of health issues, including
+                chronic conditions, acute illnesses, and mental health concerns. I believe in treating the whole person,
+                not just the symptoms of their illness, and I take a personalized approach to each patient's care.</p>
+
+            <p>I am committed to ongoing professional development and stay up-to-date with the latest research and
+                techniques in homeopathy. My goal is to provide the highest level of care to my patients, and to help
+                them achieve optimal health and wellness for life.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-plus-medical'></i>
+                <h3>Homeopathic Treatment</h3>
+                <p>To ensure that a patient receives the best treatment we listen to the patient, conducting a thorough
+                    medical evaluation and considering the latest medical treatment.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-test-tube'></i>
+                <h3>Blood Tests</h3>
+                <p>You will also get the facility of blood tests. We have a contact of large blood tests centres
+                    like:Suraksha Diagnostic Centre, Prevention Diagnostic Centre,etc..</p>
+                <p>Blood tests we provide:
+                    ∙ CBC
+                    ∙ BMP
+                    ∙ Lipid Panel
+                    ∙ Haemoglobin A1c, etc..
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Patients Counter -->
+    <section class="patient-counter" id="patient-counter">
+        <h2 class="heading">Number of <span>Patients Served</span></h2>
+        <div class="odometer" id="odometer">0</div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+        <script>
+            let value= 304530;
+            setInterval(()=>{
+                value+=5;
+                odometer.innerHTML=value;
+            },3000)
+        </script>
+    </section>
+
+    <!-- Locations of service areas-->
+    <section class="services-areas" id="services-areas">
+        <h2 class="heading">Our <span>Services Locations</span></h2>
+        <div class="container">
+            <h1>Hatkhola, Srijani Pally, Duttapukur, Nebadhai Duttapukur, West Bengal 743248</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2006.0244819937116!2d88.55051968968421!3d22.762967235554218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQ1JzQ2LjAiTiA4OMKwMzMnMDYuNSJF!5e0!3m2!1sen!2sin!4v1679648461197!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <h1>PGX6+JFF, Balaka Co-Operative Housing Society, Bamunpara, Bamangachi, West Bengal 743248</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.43932125106!2d88.51116610000001!3d22.74907199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a2513cadcfd5%3A0x57bb2181575bd505!2sBamangachi%20Post%20Office!5e0!3m2!1sen!2sin!4v1679651323383!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <h1>Basunagar, Madhyamgram Gate no.1,Kol-126</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3680.8538243934195!2d88.4613218149618!3d22.696484885119194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQxJzQ3LjQiTiA4OMKwMjcnNDguNiJF!5e0!3m2!1sen!2sin!4v1681560712618!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <Span>Me!</Span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+   
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 and Designed by Aritra | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script> 
+
+    <!--custom js-->
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
